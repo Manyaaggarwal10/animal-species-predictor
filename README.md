@@ -55,6 +55,10 @@ The project uses **VGG16 pretrained on ImageNet** as a feature extractor. Transf
 * Validation Accuracy: ~86%
 
 ---
+##  Download Model
+
+Google Drive Link: https://drive.google.com/file/d/1jpISK95uyGOh-4HiAE-ApFgzlycgaE5V/view?usp=sharing
+
 
 #  Unknown Animal Handling
 
@@ -63,12 +67,20 @@ The application uses a confidence threshold mechanism to identify images that do
 If prediction confidence is below the threshold, the app displays:
 
 ```text id="4ljlwm"
-Animal not among trained classes
+Animal not in the supported set
 ```
 
 ---
+##  Training Accuracy
 
-# 📷 Application Preview
+<img width="576" height="455" alt="acc_g" src="https://github.com/user-attachments/assets/ca702259-939d-4f1b-8565-c61354a7f8b2" />
+
+##  Training Loss
+
+<img width="567" height="455" alt="loss_g" src="https://github.com/user-attachments/assets/a27ccd4e-7bb7-4c50-be20-0ee87febe698" />
+
+
+#  Application Preview
 
 <img width="1275" height="879" alt="image" src="https://github.com/user-attachments/assets/853af115-99ad-43d1-b756-dece6f575f52" />
 <img width="1036" height="877" alt="image" src="https://github.com/user-attachments/assets/b818e849-5cbc-411e-8b0a-5932d9c8ceb2" />
